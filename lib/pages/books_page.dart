@@ -16,6 +16,7 @@ class _BooksPageState extends State<BooksPage> {
   late List<Book> books;
 
   bool isLoading = false;
+  bool isDatabaseError = false;
 
   @override
   void initState() {
@@ -26,11 +27,17 @@ class _BooksPageState extends State<BooksPage> {
   void refreshBooks() async {
     setState(() => isLoading = true);
 
-    List<Book> list = await BooksDatabase.instance.readAllBooks();
+    late List<Book> list;
+
+    try {
+      list = await BooksDatabase.instance.readAllBooks();
+    } catch(e) {
+      isDatabaseError = true;
+    }
 
     setState(() {
       isLoading = false;
-      books = list;
+      books = list ?? [];
     });
   }
 
@@ -59,12 +66,12 @@ class _BooksPageState extends State<BooksPage> {
         child: const Icon(Icons.add),
       ),
       body: Padding(
-        padding: EdgeInsets.all(10),
+        padding: const EdgeInsets.all(10),
         child: isLoading ? const CircularProgressIndicator()
-          : books.isEmpty ? const Center(
+          : books.isEmpty ? Center(
             child:  Text(
-              'No Books',
-              style: TextStyle(
+              !isDatabaseError ? 'No Books' : 'Database Error',
+              style: const TextStyle(
                 color: Colors.white
               ),
             ),
@@ -82,7 +89,7 @@ class _BooksPageState extends State<BooksPage> {
       Book note = books[index];
       return StaggeredGridTile.fit(
         crossAxisCellCount: 1,
-        child: BookCard(note, update: refreshBooks,),
+        child: BookCard(note, index: index, update: refreshBooks,),
       );
     }),
   );

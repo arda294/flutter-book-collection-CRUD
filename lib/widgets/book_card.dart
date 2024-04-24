@@ -7,7 +7,9 @@ import 'package:transparent_image/transparent_image.dart';
 class BookCard extends StatelessWidget {
   final Book note;
   final Function? update;
+  final int index;
   const BookCard(this.note, {
+    required this.index,
     this.update,
     super.key
   });
@@ -24,6 +26,7 @@ class BookCard extends StatelessWidget {
         if(update != null) update!();
       },
       child: Card(
+        color: getColor(index),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
           child: Column(
@@ -57,5 +60,21 @@ class BookCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  Color getColor(int index) {
+    switch(index % 5) {
+      case 0: 
+        return Color.fromARGB(255, 241,245,143);
+      case 1: 
+        return Color.fromARGB(255, 255,169,48);
+      case 2: 
+        return Color.fromARGB(255, 255,50,178);
+      case 3: 
+        return Color.fromARGB(255, 169,237,241);
+      case 4: 
+        return Color.fromARGB(255, 116,237,75);
+    }
+    return Colors.white;
   }
 }

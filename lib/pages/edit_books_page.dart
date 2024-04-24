@@ -81,7 +81,13 @@ class _AddEditBookPageState extends State<AddEditBookPage> {
                     });
                   },
                   decoration: const InputDecoration(
-                    hintText: 'Cover Url...',
+                    label: Text(
+                      'Cover Url',
+                      style: TextStyle(
+                        color: Colors.white60
+                      ),
+                    ),
+                    hintText: 'Url here...',
                     border: InputBorder.none,
                     hintStyle: TextStyle(
                       color: Colors.white30
