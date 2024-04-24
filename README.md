@@ -1,16 +1,17 @@
-# ets_ppb
+# ETS-PPB 2024 Flutter Book Collection
 
-A new Flutter project.
+Ketut Arda Putra Mahotama Sadha
 
-## Getting Started
+5025211235
 
-This project is a starting point for a Flutter application.
+PPB H
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+- Home Screen
+ 
+![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/ca2bfd34-a07d-4771-98de-b4256d55b001)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Book Detail
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/3f3e6cdf-e29e-4823-bebe-9bd627cbdd00)
+
