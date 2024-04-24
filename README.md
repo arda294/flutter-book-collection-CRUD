@@ -8,10 +8,21 @@ PPB H
 
 ## Screenshots
 - Home Screen
- 
-![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/ca2bfd34-a07d-4771-98de-b4256d55b001)
+
+![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/1a1e9cb1-0620-4bd2-be19-d82bff9ada52)
+
 
 - Book Detail
 
-![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/3f3e6cdf-e29e-4823-bebe-9bd627cbdd00)
+![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/14b69820-c60d-483d-972f-077dc2c4df85)
+
+- Edit Book
+
+![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/24846fd0-a1c6-4b9c-b2ea-756b0cd7665c)
+
+- Add Book
+
+![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/3856f948-3be8-40db-a3c7-addaff245308)
+
+
 
