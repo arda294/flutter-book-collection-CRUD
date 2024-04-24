@@ -24,5 +24,32 @@ PPB H
 
 ![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/3856f948-3be8-40db-a3c7-addaff245308)
 
+## Exam Points
+- Classes
+
+https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/model/book.dart#L17-L61
+
+- Images
+
+https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/widgets/book_card.dart#L44-L49
+
+- Error Handling
+
+https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/pages/books_page.dart#L32-L36
+
+- Stateless and Stateful
+
+https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/widgets/book_card.dart
+https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/pages/book_detail_page.dart
+
+- Crud SQFLite
+
+https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/db/books_database.dart
+
+- At least 5 widgets
+
+![image](https://github.com/arda294/flutter-book-collection-CRUD/assets/114855785/8af0ae05-e4b2-4cde-a7b5-ea8837a19cad)
+
+
 
 
