@@ -39,12 +39,12 @@ https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f
 
 - Stateless and Stateful
 
-https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/widgets/book_card.dart
-https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/pages/book_detail_page.dart
+https://github.com/arda294/flutter-book-collection-CRUD/blob/5b6dd9c6b8740aab9775285ddbb87275a7b83420/lib/widgets/book_card.dart#L7-L80
+https://github.com/arda294/flutter-book-collection-CRUD/blob/5b6dd9c6b8740aab9775285ddbb87275a7b83420/lib/pages/book_detail_page.dart#L10-L77
 
 - Crud SQFLite
 
-https://github.com/arda294/flutter-book-collection-CRUD/blob/2be390a6b2927abe19f2ca725a3117d89456e43f/lib/db/books_database.dart
+https://github.com/arda294/flutter-book-collection-CRUD/blob/5b6dd9c6b8740aab9775285ddbb87275a7b83420/lib/db/books_database.dart#L7-L100
 
 - At least 5 widgets
 
